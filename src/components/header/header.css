@@ -1,0 +1,36 @@
+.site-header {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.site-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+.site-header__strong {
+  color: #111517;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+}
+.wrapper-darkMode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.darkMode__text {
+  color: #111517;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+.darkMode {
+  width: 20px;
+  height: 20px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  background-image: url(../../assets/moon.svg);
+  background-size: 100% 100%;
+}

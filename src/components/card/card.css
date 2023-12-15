@@ -1,0 +1,30 @@
+.item {
+  max-width: 265px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: var(--main-color-bg);
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+.item__wrapper {
+  padding: 24px;
+}
+
+.item__name {
+  display: block;
+  margin-bottom: 16px;
+  color: var(--main-color-text);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 26px; /* 144.444% */
+}
+.item__population, .item__region, .item__capital {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--main-color-text);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+}
